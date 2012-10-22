@@ -33,6 +33,11 @@
         subview.unselected {
             -webkit-transform: translate3d(100%,0,0);
         }
+
+        /*.logo {
+            margin: auto;
+            display: block;
+        }*/
     </style>
     <script src="chui/chocolatechip.js" type="text/javascript"></script>
     <script src="chui/chui.js" type="text/javascript"></script>
@@ -40,9 +45,6 @@
         /* Local JavaScript Here */
 
         $.ready(function() {
-
-            //$("#stackpanel_01").UIIdentifyChildNodes();
-
             $("#main").UITabBar();
         });
 
@@ -62,8 +64,7 @@
             <cellsubtitle>Barcelona meetup</cellsubtitle>
         </tablecell>
         <tablecell>
-            <celltitle>Item 10</celltitle>
-            <cellsubtitle>Item 10 Subtitle</cellsubtitle>
+            <img src="img/node.png" class="logo"/>
         </tablecell>
         </tableview>
     </scrollpanel>
